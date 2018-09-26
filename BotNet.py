@@ -38,6 +38,6 @@ def add_bot(host,user,password):
 	new_bot=BOT(host,user,password)
 	botnet.append(new_bot)
 
-add_bot('127.0.0.1','roy','Haru123')
+add_bot('127.0.0.1','','')
 command_bots('cd Desktop;ls')
 
